@@ -1,0 +1,12 @@
+! Control file for "galactic_peculiar_motions.f"
+! Galactic and Solar Motion parameters
+  8.5         0.0                              ! Ro (kpc), unc/solve-for code
+220.0         0.0                              ! To (km/s),         "
+ -0.2         0.0                              ! dT/dr (km/s/kpc),  "
+ 10.70        0.0                              ! Solar Motion Uo (km/s), "
+ 15.6         0.0                              ! Solar Motion Vo (km/s), "
+  8.9        0.0                              ! Solar Motion Wo (km/s), "
+  2.9         0.0                              ! Ubar (km/s) pec mot toward G.C.
+  -1.6         0.0                              ! Vbar   "    pec mot toward Gal rotation
+  0.0         0.0                              ! Wbar   "    pec not toward N.G.P.
+  5.0        0.0                              ! vlsr error
