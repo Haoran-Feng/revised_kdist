@@ -213,8 +213,8 @@ class DkCalculator(object):
         d_err_high[idx] = D2[idx] - Dk_best[idx]
 
         idx = np.logical_not(idx)
-        d_err_low = D2[idx] - Dk_best[idx]
-        d_err_high = D1[idx] - Dk_best[idx]
+        d_err_low[idx] = D2[idx] - Dk_best[idx]
+        d_err_high[idx] = D1[idx] - Dk_best[idx]
 
         # If flagged distance (error=0), use other error estimate
         idx = abs(d_err_low) == 0
